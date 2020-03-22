@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.up-text {
+  color: green;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.down-text {
+  color: red;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.content {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+  width: 80%;
+}
+
+.navbarPersonBox {
+  position: absolute;
+  width: 40%;
+  bottom: 20%;
+  padding-left: 10%;
+  background: rgba(103, 119, 209, 0.3);
+}
+
+.navbarPersonBoxDescription {
+  font-size: large;
+  margin-right: 10%;
+}
+
+.navbarPersonBoxQuestion {
+  font-weight: bold;
+}
+
+.xxxLargeText {
+  font-size: -webkit-xxx-large;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 90%;
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbarOptions {
+  width: fit-content;
+  display: flex;
+  padding-left: 15%;
+  padding-top: 3%;
+}
+
+.appName {
+  width: max-content;
+  text-align: left;
+  margin-left: 15%;
+  color: black;
+  padding-top: 10%;
+  font-size: xx-large;
+  text-decoration: unset;
+}
+
+.navbarOption {
+  width: 150px;
+  text-align: center;
+  color: black;
+  padding-right: 15%;
+  font-size: medium;
+  text-decoration: unset;
+}
+
+.navbarSelectedOption {
+  width: 150px;
+  text-align: center;
+  color: tan;
+  padding-right: 15%;
+  font-size: medium;
+  font-weight: bold;
+  text-decoration: unset;
+}
+
+.squareWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.square {
+  bottom: 25%;
+  position: relative;
+  padding-left: 15%;
+  color: white;
+}
+
+.squareImage {
+  object-fit: cover;
+  width: 550px;
+  height: 550px;
+}
+
+.invisibleInput {
+  border: none;
+  background: transparent;
+  width: 75%;
+  font-size: medium;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
